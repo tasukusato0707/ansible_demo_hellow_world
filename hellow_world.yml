@@ -1,0 +1,6 @@
+---
+name: Sample demo
+hosts: 
+tasks:
+  - debug:
+      msg: Hellow World!
