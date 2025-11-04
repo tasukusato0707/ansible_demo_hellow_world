@@ -1,6 +1,8 @@
 ---
-name: Sample demo
-hosts: 
-tasks:
-  - debug:
-      msg: Hellow World!
+- name: Sample demo
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: Display greeting message
+      debug:
+        msg: Hello World!
